@@ -1,15 +1,29 @@
 {
-  "name": "smartertoby",
+  "name": "@smartertoby/smartertoby",
   "version": "1.0.0",
   "type": "module",
-  "description": "Infocard for smartertoby",
+  "description": "npx infocard for smartertoby",
   "main": "index.js",
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node bin/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smarterToby/npx-smartertoby.git"
+  },
+  "keywords": [
+    "npm",
+    "npx",
+    "node",
+    "javascript",
+    "front-end",
+    "npx card",
+    "business card"
+  ],
+  "bugs": {
+    "url": "https://github.com/smarterToby/npx-smartertoby/issues"
+  },
+  "homepage": "https://github.com/smarterToby/npx-smartertoby#readme",
   "author": "smartertoby",
   "license": "ISC",
   "dependencies": {
