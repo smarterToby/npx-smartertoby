@@ -1,0 +1,24 @@
+{
+  "name": "smartertoby",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Infocard for smartertoby",
+  "main": "index.js",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "smartertoby",
+  "license": "ISC",
+  "dependencies": {
+    "clipboardy": "^3.0.0",
+    "inquirer": "^9.2.11",
+    "npmcard": "^1.0.5",
+    "open": "^9.1.0"
+  },
+  "bin": {
+    "smartertoby": "bin/index.js"
+  }
+}
