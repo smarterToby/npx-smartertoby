@@ -1,4 +1,4 @@
-name: "publish npm"
+name: Publish npm package
 
 on:
   push:
@@ -16,7 +16,7 @@ jobs:
         with:
           node-version: 18
           registry-url: https://registry.npmjs.org
-      - name: publish
-        run: npm publish --access public
-        env:
-          NODE_AUTH_TOKEN: ${{secrets.NPM_AUTH_TOKEN}}
+      - name: NPM Publish
+        uses: JS-DevTools/npm-publish@v3.0.1
+        with:
+          token: ${{ secrets.NPM_ACCESS_TOKEN }}
