@@ -1,5 +1,5 @@
 {
-  "name": "@smartertoby/smartertoby",
+  "name": "smartertoby",
   "version": "1.0.0",
   "type": "module",
   "description": "npx infocard for smartertoby",
