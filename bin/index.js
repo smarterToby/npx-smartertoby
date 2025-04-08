@@ -15,7 +15,7 @@ const user = {
     x: 'smartertoby',
     linkedin: 'tobiasreuss',
     medium: 'smartertoby',
-    web: 'https://tobiasreuss.com',
+    web: 'https://tobias.is-a.dev',
     email: 'contact@tobiasreuss.com'
 };
 
@@ -34,7 +34,7 @@ const createCard = () => {
     const italic = card.chalk.gray.italic.dim;
 
     const userInfo = [
-        {label: '    Work:', value: 'Junior Software Engineer', formatter: text},
+        {label: '    Work:', value: 'Software Engineer @ IBM', formatter: text},
         {label: '  GitHub:', value: `https://github.com/${github(user.github)}`, formatter: link},
         {label: '       X:', value: `https://x.com/${x(user.x)}`, formatter: link},
         {label: 'LinkedIn:', value: `https://linkedin.com/in/${linkedin(user.linkedin)}`, formatter: link},
